@@ -12,7 +12,7 @@ table{
     height: 300px;
     border-radius: 50px;
     font-style: normal;
-    font-family: 'Courier New';
+    font-family: Disney;
 }
 body{background-color: #90a0db;
 }
@@ -24,8 +24,11 @@ body{background-color: #90a0db;
 p {
     color: yellow;
 }
-
-h4{color: white;}
+h3{
+    color: black;
+    font-family: sunmora;
+}
+h4{color: white; font-family: Disney;}
 
 small, a{
 text-decoration: none;}
@@ -38,19 +41,20 @@ input {
     height: 30px;
 }
 button{
-    width: 100px;
+    width: 130px;
     height: 35px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
 }
 .boton {
     background-color: blue;
     width: 200px;
     height: 40px;
-    font-size: 120%;
+    font-size: 20px;
     color: white;
     border-radius: 6px;
     border-color: #90a0db;
+    cursor: pointer;
 }
 
 button:hover {
@@ -68,3 +72,66 @@ fieldset {
      color: white;
      font-family: sunmora;
  }
+ .menu{
+    background: black;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    display: block;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+}
+
+.menu a{
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: underline;
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+   padding: 12px 10px;
+   font-size: 16px;
+   font-family:Disney ;
+}
+
+.menu a:hover {
+    background: #90a0db;
+}
+@font-face{
+    font-family:Disney ;
+    src: url(/fonts/Retrochips.otf);
+}
+.logo{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+    float: left;
+}
+
+nav img{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+    float: right;}
+img {
+    width: 100px;
+}
+.ref {
+    text-align: center;
+    position: sticky;
+    top: 110%;
+    height: 70px; 
+    flex-flow: column; 
+    background-color: #fff;
+    color: black;
+    
+    padding: 3px;
+    font-size: 15px;
+}
+h2 {
+    font-size: 15px;
+    color: black;
+}

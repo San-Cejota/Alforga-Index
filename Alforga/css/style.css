@@ -3,7 +3,7 @@ color: #fff;
 }
 @font-face{
     font-family:Disney ;
-    src: url(/fonts/Sunmora-Bold.ttf);
+    src: url(/fonts/Retrochips.otf);
 }
 @font-face{
     font-family: walter;
@@ -36,7 +36,7 @@ color: #fff;
     text-decoration: none;
    padding: 12px 10px;
    font-size: 16px;
-   font-family:walter ;
+   font-family:Disney ;
 }
 
 .menu a:hover {
@@ -106,7 +106,6 @@ button:hover {
     flex-flow: column; 
     background-color: #fff;
     color: black;
-    font-family: insabic;
     padding: 3px;
 }
 
