@@ -1,0 +1,56 @@
+body {background:#90a0db;
+    color: #fff;
+}
+@font-face{
+    font-family: walter;
+    src: url(/fonts/Dunkin.otf);
+}
+@font-face{
+    font-family: sunmora;
+    src: url(/fonts/Sunmora-Bold.ttf);
+}
+.menu{
+    background: black;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    display: block;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+}
+.menu a{
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: underline;
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+   padding: 12px 10px;
+   font-size: 16px;
+   font-family:walter ;
+}
+.menu a:hover {
+    background: #90a0db;
+}
+.logo{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+    float: left;
+}
+nav img{
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+    float: right;
+}
+
+
+table{
+    width: 1000px;
+    font-style: normal;
+    font-family:sunmora;
+}

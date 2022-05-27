@@ -1,0 +1,70 @@
+/* button{
+    background-color: black;
+    color: blanchedalmond;
+    width: 80px;
+    height: 30px;
+} */
+table{
+    
+    border-right: 100%;
+    border-color: white;
+    width: 550px;
+    height: 300px;
+    border-radius: 50px;
+    font-style: normal;
+    font-family: 'Courier New';
+}
+body{background-color: #90a0db;
+}
+
+@font-face{
+    font-family: sunmora;
+    src: url(/fonts/Sunmora-Bold.ttf);
+}
+p {
+    color: yellow;
+}
+
+h4{color: white;}
+
+small, a{
+text-decoration: none;}
+select, option{
+    width: 200px;
+    height: 30px;
+}
+input {
+    width: 200px;
+    height: 30px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.boton {
+    background-color: blue;
+    width: 200px;
+    height: 40px;
+    font-size: 120%;
+    color: white;
+    border-radius: 6px;
+    border-color: #90a0db;
+}
+
+button:hover {
+    box-shadow: 0 10px 10px 0 rgba(253, 253, 253, 0.658), 0 10px 10px 0 rgba(255, 255, 255, 0.69)
+}
+
+fieldset {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-color: aliceblue;
+    width: 300px;
+}
+ legend {
+     font-size: 40px;
+     color: white;
+     font-family: sunmora;
+ }
