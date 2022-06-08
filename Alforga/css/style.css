@@ -2,23 +2,23 @@
 color: #fff;
 }
 @font-face{
-    font-family:Disney ;
+    font-family:Retrochips ;
     src: url(/fonts/Retrochips.otf);
 }
 @font-face{
     font-family: walter;
-    src: url(/fonts/Dunkin.otf);
+    src: url(/fonts/Bontang.otf);
 }
 
 @font-face{
-    font-family: insabic ;
-    src: url(/fonts/Insanibc.ttf);
+    font-family: letra1;
+    src: url(/fonts/EspressoDolce.ttf);
 }
 .menu{
     background: black;
     padding: 0;
     width: 100%;
-    height: 70px;
+    height: 60px;
     margin: auto;
     display: block;
     position: fixed;
@@ -36,7 +36,7 @@ color: #fff;
     text-decoration: none;
    padding: 12px 10px;
    font-size: 16px;
-   font-family:Disney ;
+   font-family:Retrochips ;
 }
 
 .menu a:hover {
@@ -61,8 +61,8 @@ h2 {
 }
 
 nav img{
-    width: 90px;
-    height: 80px;
+    width: 80px;
+    height: 70px;
     border-radius: 100%;
     float: right;}
 img {
@@ -100,13 +100,16 @@ button:hover {
 }
 .ref {
     text-align: center;
-    position: sticky;
-    top: 100%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    align-items: center;
     height: 70px; 
-    flex-flow: column; 
     background-color: #fff;
     color: black;
-    padding: 3px;
+    padding: 5px;
+    font-family: sans-serif;
+    margin-top: 150px;
 }
 
 .titulo {
@@ -116,14 +119,14 @@ button:hover {
 
 .titulo1 {
     color: #fed95c;
-    font-size: 50px;
+    font-size: 70px;
     text-align: left;
-    font-family:Disney ;
+    font-family:letra1 ;
 }
 
 .titulo2 { 
     color: white;
-    font-family:Disney ;
+    font-family:letra1;
 }
 
 fieldset {
@@ -132,9 +135,12 @@ fieldset {
     border-color: aliceblue;
     width: 400px;
 }
+fieldset p{
+    font-family: walter;
+}
  legend {
      font-size: 40px;
-     font-family: Disney;
+     font-family: Retrochips;
  }
 
  .boton {
@@ -151,3 +157,29 @@ fieldset {
      margin-left: 0%;
      margin-right: 0%;
  }
+
+ .btn-wsp{
+     position: fixed;
+     width: 55px;
+     height: 55px;
+     line-height: 55px;
+     bottom: 30px ;
+     right: 30px;
+     background-color: #0df053;
+     color: #fff;
+     border-radius: 50px;
+     text-align: center;
+     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+     cursor: pointer;
+     z-index: 100;
+ }
+ .btn-wsp:hover{
+     text-decoration: none;
+     background-color: #fff;
+     color: #0df053;
+ }
+
+ i {
+     color: black;
+ }
+ 

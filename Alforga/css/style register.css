@@ -8,8 +8,6 @@ table{
     
     border-right: 100%;
     border-color: white;
-    width: 550px;
-    height: 300px;
     border-radius: 50px;
     font-style: normal;
     font-family: Disney;
@@ -33,7 +31,7 @@ h4{color: white; font-family: Disney;}
 small, a{
 text-decoration: none;}
 select, option{
-    width: 200px;
+    width: 210px;
     height: 30px;
 }
 input {
@@ -65,11 +63,11 @@ fieldset {
     background-color: rgb(0, 0, 0);
     border-radius: 30px;
     border-color: aliceblue;
-    width: 300px;
+    width: 600px;
 }
- legend {
+ h1 {
      font-size: 40px;
-     color: white;
+     color: burlywood;
      font-family: sunmora;
  }
  .menu{
@@ -127,6 +125,7 @@ img {
     flex-flow: column; 
     background-color: #fff;
     color: black;
+    margin-top: 120px;
     
     padding: 3px;
     font-size: 15px;
